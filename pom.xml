@@ -13,6 +13,7 @@
         <module>springBootJpa</module>
         <module>springBootData</module>
         <module>springBootData2</module>
+        <module>springDataNoSql</module>
     </modules>
 
 
