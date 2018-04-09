@@ -43,7 +43,7 @@ public class PrimaryConfig {
         return builder
                 .dataSource(primaryDataSource)
                 .properties(getVendorProperties(primaryDataSource))
-                .packages("com.job.jpa.primary.entity") //设置实体类所在位置
+                .packages("com.job.jpa.primary.service") //设置实体类所在位置
                 .persistenceUnit("primaryPersistenceUnit")
                 .build();
     }

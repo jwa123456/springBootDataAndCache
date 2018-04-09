@@ -23,6 +23,8 @@ public class TestDataSource {
 
 	@Before
 	public void setUp() {
+		userRepository.deleteAll();
+		messageRepository.deleteAll();
 	}
 
 	@Test

@@ -1,7 +1,7 @@
 package com.job;
 
 
-import com.job.entity.User;
+import com.job.service.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
