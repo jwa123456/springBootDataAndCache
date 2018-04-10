@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springBootJdbcTemplate</module>
-        <module>springBootJpa</module>
         <module>springBootData</module>
         <module>springBootData2</module>
         <module>springDataNoSql</module>
+        <module>springBootCache</module>
     </modules>
 
 
