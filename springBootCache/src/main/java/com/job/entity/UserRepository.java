@@ -1,7 +1,6 @@
-package com.job.service;
+package com.job.entity;
 
 import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -13,9 +12,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
     @Cacheable(key = "#p0")
     User findByName(String name);
 
-//    @CachePut(key = "#p0.name")
+    @CachePut(key = "#p0.name")
     User save(User user);
-
-    @CacheEvict(allEntries = true)
-    void deleteAll();
 }

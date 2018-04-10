@@ -1,4 +1,4 @@
-package com.job.service;
+package com.job.entity;
 
 import java.io.Serializable;
 

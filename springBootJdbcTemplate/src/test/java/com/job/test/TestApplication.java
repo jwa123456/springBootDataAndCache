@@ -2,7 +2,7 @@ package com.job.test;
 
 
 import com.job.App;
-import com.job.service.UserService;
+import com.job.entity.UserService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

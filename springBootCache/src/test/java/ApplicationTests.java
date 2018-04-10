@@ -1,7 +1,7 @@
 
 import com.job.Application;
-import com.job.service.User;
-import com.job.service.UserRepository;
+import com.job.entity.User;
+import com.job.entity.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,8 +23,9 @@ public class ApplicationTests {
 
     @Before
     public void before() {
-        userRepository.deleteAll();
-//        userRepository.save(new User("AAA", 10));
+//        userRepository.deleteAll();
+        userRepository.save(new User("AAA", 10));
+//        cacheManager.getCache("users").clear();
     }
 
     @Test
