@@ -14,6 +14,7 @@
         <module>springBootData2</module>
         <module>springDataNoSql</module>
         <module>springBootCache</module>
+        <module>springBootLogAndSecure</module>
     </modules>
 
 
