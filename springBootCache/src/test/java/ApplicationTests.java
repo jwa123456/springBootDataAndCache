@@ -25,7 +25,7 @@ public class ApplicationTests {
     public void before() {
 //        userRepository.deleteAll();
         userRepository.save(new User("AAA", 10));
-//        cacheManager.getCache("users").clear();
+        cacheManager.getCache("users").clear();
     }
 
     @Test
